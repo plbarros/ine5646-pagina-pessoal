@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title> Pedro Barros </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./style2.css">
+        <style>
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            label{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            aside{
+                float:right;
+                
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <div class="info">
+            <h1> Pedro Lopes de Barros </h1>
+        <img src="./pe.jpg" class="foto" alt="foto" style="width:263px;height:350px">
+            <p> <strong>Idade:</strong> 22 </p>
+            <p> <strong>Endereço:</strong> Florianópolis, SC </p>
+            <p> <strong>Github:</strong> <a href="https://github.com/plbarros"> plbarros </a> </p>
+            <p > <strong>Formação acadêmica:</strong> </p>
+            <table>
+                <tr>
+                    <th style="color:white"> Universidade </th>
+                    <th style="color:white"> Curso </th>
+                    <th style="color:white"> Estado </th>
+                </tr>
+                <tr>
+                    <td> UFSC </td>
+                    <td> Sistemas da Informação </td>
+                    <td> Em andamento </td>
+            </table>
+        </div>
+        
+        
+        
+
+        
+
+        <div class="elemDinamicos">       
+            <label for="fhob" style="color:white">Digite um hobby:</label>
+            <input type="text" id="fhob" name="fhob">
+            <button onclick="adicionar(1)" id="botao">
+                adicionar
+            </button>
+            <div class="dinam1">  
+                <h3> Meus Hobbies:</h3>
+            
+                <ul id="lista1">
+
+                </ul>
+            </div>
+            <label for="fduv" style="color:white">Digite uma dúvida:</label>
+            <input type="text" id="fduv" name="fduv">
+            <button onclick="adicionar(2)" id="botao">
+                adicionar
+            </button>    
+            <div class="dinam2">
+                <h3> Dúvidas de Programação Web:</h3>
+            
+                <ul id="lista2">
+                
+                </ul>
+            </div> 
+        </div>        
+        <script type = "text/javascript" src = "script2.js" defer>  </script>
+    </body>
+</html>
+
